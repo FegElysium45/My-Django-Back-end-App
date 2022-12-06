@@ -1,0 +1,33 @@
+Installing Python (optional for Windows users)
+
+To install python on Windows, you first need to download the latest version from the python.org website.
+
+1. Go to https://www.python.org/downloads/windows
+
+2. Select the latest release.
+Phyton Download page displaying the phyton versions
+
+3. Depending on what best suits your operating system, select either the 32-bit or 64-bit offering.
+
+4. Click the link to download the file.
+
+5. Open the file, once downloaded.
+
+6. On the installation window, check the following boxes:
+
+    Install Launcher for all users. 
+
+    Add Python 3.10 to PATH. 
+
+Phyton Installation options
+
+7. Select Install Now.   
+Phyton installation advanced options and path to folder selection
+
+8. Select Yes on the next window to allow the app to make changes to your device.
+
+9.  Once the installation process has begun, allow it to finish. 
+
+10.  Select Close once it's successful.
+
+10. You should now be able to access the latest release of Python from the Windows menu.
