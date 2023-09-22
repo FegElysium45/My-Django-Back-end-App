@@ -6,7 +6,7 @@ from django.shortcuts import render
 from django.http import HttpResponse 
 
 def index(request): 
-    return HttpResponse("Hello, world. This is the index view of Demoapp. My second Application. Azuks and lizzykay!") 
+    return HttpResponse("Hello, world. This is the index view of Demoapp. My second Application. Azuks!") 
 
 def home(request): 
     return render(request, "home.html", {}) 
