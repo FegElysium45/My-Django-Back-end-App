@@ -8,8 +8,8 @@ from django.http import HttpResponse
 def index(request): 
     return HttpResponse("Hello, world. This is the index view of Demoapp. My second Application. Azuks!") 
 
-def home(request): 
-    return render(request, "home.html", {}) 
+def menu(request): 
+    return render(request, "menu.html", {}) 
 
 def register(request): 
     return render(request, "register.html", {}) 
