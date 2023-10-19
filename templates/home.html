@@ -42,21 +42,7 @@
         <p>Account Balance: {{ account_balance }}</p>
     </section>
 
-    <section>
-        <h2>Make a Transaction</h2>
-        <!-- Add your Django forms here for transaction processing -->
-        <form method="post" action="{% url 'process_transaction' %}">
-            {% csrf_token %}
-            <!-- Your form fields go here -->
-            <label for="description">Description:</label>
-            <input type="text" name="description" required>
-            
-            <label for="amount">Amount:</label>
-            <input type="number" name="amount" required>
-            
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+    
 
     <footer>
         <p>&copy; 2023 Microfinance Banking System</p>
